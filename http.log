@@ -1,0 +1,349 @@
+GET http://www.webinject.org/bogus.html
+User-Agent: WebInject
+
+
+
+HTTP/1.1 404 Not Found
+Connection: close
+Date: Sun, 25 Jul 2010 11:04:32 GMT
+Server: Apache/2.2.15 (Unix) mod_ssl/2.2.15 OpenSSL/0.9.8e-fips-rhel5 mod_auth_passthrough/2.1 mod_bwlimited/1.4 FrontPage/5.0.2.2635
+Content-Length: 513
+Content-Type: text/html; charset=iso-8859-1
+Client-Date: Sun, 25 Jul 2010 11:04:33 GMT
+Client-Peer: 207.210.64.174:80
+Client-Response-Num: 1
+Client-Warning: Redirect loop detected (max_redirect = 0)
+Title: 404 Not Found
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>404 Not Found</title>
+</head><body>
+<h1>Not Found</h1>
+<p>The requested URL /bogus.html was not found on this server.</p>
+<p>Additionally, a 404 Not Found
+error was encountered while trying to use an ErrorDocument to handle the request.</p>
+<hr>
+<address>Apache/2.2.15 (Unix) mod_ssl/2.2.15 OpenSSL/0.9.8e-fips-rhel5 mod_auth_passthrough/2.1 mod_bwlimited/1.4 FrontPage/5.0.2.2635 Server at www.webinject.org Port 80</address>
+</body></html>
+
+
+
+************************* LOG SEPARATOR *************************
+
+
+GET http://www.webinject.org/dev.html
+User-Agent: WebInject
+
+
+
+HTTP/1.1 200 OK
+Connection: close
+Date: Sun, 25 Jul 2010 11:04:33 GMT
+Accept-Ranges: bytes
+ETag: "1065ab-2777-45ef8d5666300"
+Server: Apache/2.2.15 (Unix) mod_ssl/2.2.15 OpenSSL/0.9.8e-fips-rhel5 mod_auth_passthrough/2.1 mod_bwlimited/1.4 FrontPage/5.0.2.2635
+Content-Language: en
+Content-Length: 10103
+Content-Type: text/html
+Last-Modified: Fri, 26 Dec 2008 20:18:52 GMT
+Client-Date: Sun, 25 Jul 2010 11:04:34 GMT
+Client-Peer: 207.210.64.174:80
+Client-Response-Num: 1
+Client-Warning: Redirect loop detected (max_redirect = 0)
+Link: <stylesheet.css>; rel="stylesheet"; type="text/css"
+Title: WebInject - (HTTP) Web Application and Web Services Test Tool - Development Information
+X-Meta-Description: WebInject is a free tool for automated testing of web applications and web services. It can be used to test individual system components with HTTP interfaces, as a test harness to create a suite of functional and regression tests, or for service-level monitoring.
+X-Meta-Keywords: webinject, test tool, http, web services, test harness, test framework, testcase, automation, QA, quality assurance, automated testing, scripts, scripting, monitor, functional, regression, acceptance, data driven, xml, soap, perl, gnu, gpl, free software, open source, ssl, post, jsp, asp, .net, gnuplot, performance probe
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>WebInject - (HTTP) Web Application and Web Services Test Tool - Development Information</title>
+    <link rel="stylesheet" href="stylesheet.css" type="text/css" />
+    <meta name="description" content="WebInject is a free tool for automated testing of web applications and web services. It can be used to test individual system components with HTTP interfaces, as a test harness to create a suite of functional and regression tests, or for service-level monitoring." />
+    <meta name="keywords" content="webinject, test tool, http, web services, test harness, test framework, testcase, automation, QA, quality assurance, automated testing, scripts, scripting, monitor, functional, regression, acceptance, data driven, xml, soap, perl, gnu, gpl, free software, open source, ssl, post, jsp, asp, .net, gnuplot, performance probe" />
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <meta http-equiv="Content-Language" content="en" />
+</head>
+
+<body>
+<div id="top">
+    <table>
+        <tr>
+            <td>
+                <table>
+                    <tr>
+                        <td><img src="gfx/topbar.gif" alt="top bar" class="topupimg" /></td>
+                        <td id="toplogoholder"><img src="gfx/topbar_logo.gif" alt="top logo bar" /></td>
+                        <td><img src="gfx/topbar.gif" alt="top bar" class="topupimg" /></td>
+                    </tr>
+                </table>
+            </td>                
+        </tr>
+        <tr>
+            <td>
+                <table>
+                    <tr>
+                        <td><img src="gfx/left.gif" alt="left design" /></td>
+                        <td class="navmenu">
+                                |&nbsp;<a href="/">Home</a>
+                                |&nbsp;<a href="download.html">Download</a>                                    
+                                |&nbsp;<a href="manual.html">Manual</a>
+                                |&nbsp;<a href="screenshots.html">Screenshots</a>
+                                |&nbsp;<a href="faq.html">FAQ</a>
+                                |&nbsp;<a href="proxy.html">Recording</a>
+                                |&nbsp;<a href="dev.html">Development</a>
+                                |&nbsp;<a href="build.html">Build</a>
+                                |&nbsp;<a href="mrtgplugin.html">MRTG&nbsp;Plugin</a>
+                                |&nbsp;<a href="plugin.html">Nagios&nbsp;Plugin</a>
+                                |&nbsp;<a href="webservices.html">Web&nbsp;Services</a>&nbsp;|                           
+                        </td>
+                        <td><img src="gfx/right.gif" alt="right design" /></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td><img src="gfx/bar.gif" alt="spacer bar" class="hrimg" /></td>
+        </tr>
+    </table>
+</div>
+
+<div class="center">
+<div id="container">
+
+
+<!-- Start Content -->
+
+
+<!-- Google Adsense -->    
+<script type="text/javascript"><!--
+    google_ad_client = "pub-6891159458627941";
+    /* webinject */
+    google_ad_slot = "7578790058";
+    google_ad_width = 728;
+    google_ad_height = 90;
+    //-->
+    </script>
+<script type="text/javascript"
+    src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+
+
+<h1>Development Information</h1>
+
+<div class="center">
+    <br />
+    <h3>
+        More tools by <strong>Corey Goldberg</strong>: &nbsp;<a href="http://www.goldb.org">www.goldb.org</a><br />
+        <a href="http://feeds.feedburner.com/goldblog">Subscribe To Corey's Blog
+            <img src="http://www.feedburner.com/fb/images/pub/feed-icon32x32.png" alt="Subscribe To Goldblog" style="vertical-align:middle;border:2"/>
+        </a>
+    </h3>
+</div>
+
+    
+<br /><br />
+
+
+
+<img src="images/perl_republic.gif" alt="perl republic logo" class="rightlogo" />
+
+
+<h2>Author/Maintainer</h2>
+<p>
+<strong>Corey Goldberg</strong> is the author and maintainer of WebInject.
+</p>
+<p>
+Please use the Forums to report bugs, request enhancements, and make suggestions.<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;Forums: 
+<a href="http://www.webinject.org/cgi-bin/forums/YaBB.cgi">http://www.webinject.org/cgi-bin/forums/YaBB.cgi</a>
+</p>
+<p>
+To submit patches or discuss development, you may contact me directly:<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;Email: 
+    <script type="text/javascript">
+        <!--
+        var name = "corey"
+        var emailHost = "goldb.org"
+        document.write("<a href=" + "mail" + "to:" + name + "@" + emailHost + ">" + name + "@" + emailHost + "</a>")
+        //-->
+    </script>
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;Google Talk: cgoldberg<br />
+</p>
+
+
+<br /><br />
+
+
+<h2>SourceForge</h2>
+<p>
+I am currently making use of the open source project hosting at SourceForge.net.  I do not use all of the 
+available services they offer, but this is where the Source Code Repository and Releases are stored.
+</p>
+
+
+<h3>SourceForge Project Page:</h3>
+<p>
+<a href="http://sourceforge.net/projects/webinject">
+http://sourceforge.net/projects/webinject</a>
+</p>
+
+
+<h3>File Release System:</h3>
+<p>
+<a href="http://sourceforge.net/project/showfiles.php?group_id=100145">
+http://sourceforge.net/project/showfiles.php?group_id=100145</a>
+</p>
+
+
+<p>
+The latest stable source code is available with each release you download.
+</p>
+<p>
+If you want the bleeding edge version of the source code to run, you can get it directly 
+from CVS.  If you want to submit any patches to the code or to collaborate on any development,
+please email me.
+</p>
+
+
+<h3>Browse the CVS Source Code Repository with ViewVC:</h3>
+<p>
+<a href="http://webinject.cvs.sourceforge.net/webinject">
+http://webinject.cvs.sourceforge.net/webinject</a>
+</p>
+
+
+<h3>Anonymous Checkout from CVS:</h3>
+<p>
+This project's SourceForge.net CVS repository can be checked out through anonymous (pserver) CVS 
+with the following instruction set.  When prompted for a password for anonymous, simply press the Enter key.
+Use the following commands from your CVS client to checkout the code:
+</p>
+<pre><code>cvs -d:pserver:anonymous@webinject.cvs.sourceforge.net:/cvsroot/webinject login
+cvs -z3 -d:pserver:anonymous@webinject.cvs.sourceforge.net:/cvsroot/webinject co -P webinject</code></pre>
+
+
+<br /><br />
+
+
+<h2>Developer Forum</h2>
+<p>
+There is a small developer forum for WebInject located at:  
+<a href="http://www.webinject.org/cgi-bin/forums/YaBB.cgi">
+http://www.webinject.org/cgi-bin/forums/YaBB.cgi</a>.  Feel free to sign up and post messages here regarding current and 
+future development.  Contributions and collaborations are always welcome. 
+</p>
+
+
+<br /><br />
+
+
+<h2>Free and Open Source</h2>
+<p>
+WebInject is licensed under the <a href="http://www.gnu.org/licenses/gpl.html">GNU General 
+Public License (GPL)</a>.
+</p>
+<p>
+It is "Free" (as in freedom) as defined by the GNU Project and Free 
+Software Foundation's (FSF) <a href="http://www.gnu.org/philosophy/free-sw.html">
+Free Software Definition</a>, and also "Open Source" as defined by the Open Source Initiative's (OSI)
+<a href="http://www.opensource.org/docs/definition.php"> Open Source Definition</a>.
+</p>
+<p>
+You are free to use WebInject in whatever manner you please at no cost.  All source code is 
+available to read and modify.  However, if you make any modifications that you would like to publish, 
+these modifications must also be covered under the same licensing terms.  Please see the terms of the 
+GNU GPL for more information.<br />
+<br />
+<img src="images/osi-certified-72x60.gif" alt="OSI logo" />
+</p>
+
+
+
+
+<!-- End Content -->
+
+
+<p><br /><br /></p>
+
+<!-- Google Adsense -->    
+<script type="text/javascript"><!--
+    google_ad_client = "pub-6891159458627941";
+    /* webinject */
+    google_ad_slot = "7578790058";
+    google_ad_width = 728;
+    google_ad_height = 90;
+    //-->
+    </script>
+<script type="text/javascript"
+    src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+
+
+</div>  <!-- close center div -->
+</div>  <!-- close container div -->
+
+<div id="footer">
+    <table>
+        <tr><td class="hrbar"></td></tr>
+    </table>
+    <br />
+    <div class="navmenu">
+        |&nbsp;<a href="/">Home</a>
+        |&nbsp;<a href="download.html">Download</a>                                 
+        |&nbsp;<a href="manual.html">Manual</a> 
+        |&nbsp;<a href="screenshots.html">Screenshots</a>
+        |&nbsp;<a href="faq.html">FAQ</a>
+        |&nbsp;<a href="proxy.html">Recording</a>
+        |&nbsp;<a href="dev.html">Development</a>
+        |&nbsp;<a href="build.html">Build</a>
+        |&nbsp;<a href="mrtgplugin.html">MRTG&nbsp;Plugin</a>
+        |&nbsp;<a href="plugin.html">Nagios&nbsp;Plugin</a>
+        |&nbsp;<a href="webservices.html">Web&nbsp;Services</a>&nbsp;|    
+    </div>                                        
+    <p>
+    <br /><br />      
+    &copy; Copyright 2004-2006 Corey Goldberg<br />
+    <script type="text/javascript">
+            <!--
+            var name = "corey"
+            var emailHost = "goldb.org"
+            document.write("<a href=" + "mail" + "to:" + name + "@" + emailHost + ">" + name + "@" + emailHost + "</a>")
+            //-->
+    </script>
+    - <a href="http://www.goldb.org">www.goldb.org</a><br /><br />
+    <a href="http://sourceforge.net">
+        <img src="http://sflogo.sourceforge.net/sflogo.php?group_id=136034&amp;type=1" width="88" height="31" alt="SourceForge Logo" />
+    </a>
+    <br /><br />
+    </p>
+</div>
+
+
+<!-- Google Analytics - cmg -->
+<script type='text/javascript'>
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type='text/javascript'>
+try{
+var pageTracker = _gat._getTracker("UA-6011612-2");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+
+</body>
+</html>
+
+
+
+************************* LOG SEPARATOR *************************
+
+
